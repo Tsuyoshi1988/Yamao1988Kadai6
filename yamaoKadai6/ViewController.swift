@@ -39,9 +39,7 @@ class ViewController: UIViewController {
         }
     }
     func random () {
-        for _ in 0...1 {
             let index:Int = Int(arc4random_uniform(100))
             hanteiLabel.text = "\(index)"
-        }
     }
 }
