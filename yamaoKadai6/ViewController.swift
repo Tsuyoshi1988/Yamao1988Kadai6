@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         }
     }
     func random () {
-            let index:Int = Int(arc4random_uniform(100))
+            let index:Int = Int(arc4random_uniform(100) + 1)
             hanteiLabel.text = "\(index)"
     }
 }
